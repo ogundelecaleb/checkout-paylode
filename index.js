@@ -149,55 +149,7 @@ function paylode() {
               background: #4f3c40;
             }`;
 
-      //   spinner = document.createElement("div");
-      //   spinner.appendChild(document.createElement("div"));
-      //   spinner.appendChild(document.createElement("div"));
-      //   spinner.appendChild(document.createElement("div"));
-      //   spinner.appendChild(document.createElement("div"));
-      //   spinner.setAttribute("id", "seerbit-loader");
-      //   spinner.setAttribute("class", "lds-ring");
-      //   spinner.style.display = "block";
-
-      // style = document.createElement("style");
-      // style.innerHTML = `.lds-ring {
-      //           display: inline-block;
-      //           position: fixed;
-      //           top: 20%;
-      //           left: 47%;
-      //           width: 54px;
-      //           height: 54px;
-      //           z-index: 10000000;
-      //         }
-      //         .lds-ring div {
-      //           box-sizing: border-box;
-      //           display: block;
-      //           position: absolute;
-      //           top: 0px;
-      //           width: 31px;
-      //           height: 31px;
-      //           margin: 6px;
-      //           border: 2px solid #000000;
-      //           border-radius: 50%;
-      //           animation: lds-ring 0.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-      //           border-color: #000000;
-
-      //         .lds-ring div:nth-child(1) {
-      //           animation-delay: -0s;
-      //         }
-      //         .lds-ring div:nth-child(2) {
-      //           animation-delay: -0.05s;
-      //         }
-      //         .lds-ring div:nth-child(3) {
-      //           animation-delay: -0.1s;
-      //         }
-      //         @keyframes lds-ring {
-      //           0% {
-      //             transform: rotate(0deg);
-      //           }
-      //           100% {
-      //             transform: rotate(360deg);
-      //           }
-      //         }`;
+      
       // Append the spinner to the loader
       loader.appendChild(spinner);
 
@@ -270,6 +222,10 @@ function paylode() {
       }
     },
   };
+
+  return {
+    PaylodeCheckout
+  }
 }
 
 export default paylode;
