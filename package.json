@@ -1,0 +1,18 @@
+{
+  "name": "paylode",
+  "version": "1.0.0",
+  "description": "paylode checkout function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/ogundelecaleb/checkout-paylode.git)"
+  },
+  "keywords": [
+    "paylode"
+  ],
+  "author": "paylode dev",
+  "license": "ISC"
+}
